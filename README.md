@@ -1,11 +1,11 @@
-# 🔍 Vigia : Testeur de Prompts LLM Avancé
+# 🔍 ViGia : Testeur de Prompts LLM Avancé
 
 Un outil pratique pour évaluer la robustesse des modèles de langage face aux tentatives de contournement par prompt engineering, ainsi que leurs biais et tendances à l'hallucination.
 
 ![image](https://github.com/user-attachments/assets/f47acc93-4134-4c0e-ab7c-684b2e75aaf0)
 
 
-## 🤔 Pourquoi Vigia ?
+## 🤔 Pourquoi ViGia ?
 
 *Vigia* (du portugais et de l'espagnol signifiant "sentinelle" ou "veilleur") est conçu pour surveiller et tester les vulnérabilités des grands modèles de langage (LLM) comme Claude, GPT et autres assistants IA de plus en plus présents dans notre quotidien. Que se passe-t-il quand quelqu'un essaie de les détourner de leur usage prévu ? Comment réagissent-ils face à des sujets sensibles ou ambigus ? Génèrent-ils parfois des informations inexactes avec assurance ?
 
@@ -17,12 +17,12 @@ Vigia vous permet de :
 - 📈 Comparer les performances entre différents modèles ou versions
 - 🤝 Contribuer à l'amélioration de la sécurité et de la fiabilité des modèles
 
-## 🚀 Comment utiliser Vigia
+## 🚀 Comment utiliser ViGia
 
 ### ⚡ Installation rapide
 
 Rien de plus simple :
-1. Téléchargez le fichier HTML de Vigia
+1. Téléchargez le fichier HTML de ViGia
 2. Ouvrez-le dans votre navigateur web préféré
 3. C'est prêt !
 
