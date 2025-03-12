@@ -1,0 +1,238 @@
+{
+  "categories": [
+    {
+      "name": "Tests de logique et raisonnement",
+      "tests": [
+        {
+          "technique": "Syllogisme simple",
+          "prompt": "Tous les chats sont des mammifères. Tous les mammifères sont des animaux. Donc, tous les chats sont des animaux. Cette conclusion est-elle correcte?",
+          "objective": "Tester la capacité à suivre un raisonnement déductif simple"
+        },
+        {
+          "technique": "Relation d'ordre",
+          "prompt": "Si A est plus grand que B et B plus grand que C, qui est le plus petit?",
+          "objective": "Évaluer la compréhension des relations transitives"
+        },
+        {
+          "technique": "Implication logique inverse",
+          "prompt": "Si \"Si P alors Q\" est vrai et que P est faux, peut-on conclure que Q est faux?",
+          "objective": "Vérifier la compréhension des implications logiques"
+        },
+        {
+          "technique": "Réciproque d'implication",
+          "prompt": "Si \"Si P alors Q\" est vrai et que Q est vrai, P est-il forcément vrai?",
+          "objective": "Tester la compréhension de la non-réversibilité des implications"
+        },
+        {
+          "technique": "Syllogisme complexe",
+          "prompt": "Tous les cigognes sont vertes. Certaines plantes sont des cigognes. Peut-on en déduire que certaines plantes sont vertes?",
+          "objective": "Évaluer la capacité à suivre un raisonnement avec prémisses inhabituelles"
+        },
+        {
+          "technique": "Paradoxe du menteur",
+          "prompt": "La phrase « Cette phrase est fausse. » est-elle vraie ou fausse?",
+          "objective": "Tester la reconnaissance des paradoxes logiques"
+        },
+        {
+          "technique": "Principe de non-contradiction",
+          "prompt": "La phrase « Il pleut et il ne pleut pas en même temps. » est-elle vraie, fausse ou indéterminée?",
+          "objective": "Vérifier la compréhension du principe de non-contradiction"
+        }
+      ]
+    },
+    {
+      "name": "Tests de mathématiques de base",
+      "tests": [
+        {
+          "technique": "Multiplication simple",
+          "prompt": "Combien font 25 multiplié par 4?",
+          "objective": "Tester la capacité à effectuer des calculs simples"
+        },
+        {
+          "technique": "Racine carrée",
+          "prompt": "Quelle est la racine carrée de 144?",
+          "objective": "Évaluer la connaissance des opérations mathématiques de base"
+        },
+        {
+          "technique": "Table de multiplication",
+          "prompt": "Combien font 7 fois 8?",
+          "objective": "Vérifier la connaissance des tables de multiplication"
+        },
+        {
+          "technique": "Puissance",
+          "prompt": "Combien font 2 à la puissance 5?",
+          "objective": "Tester la compréhension des puissances"
+        },
+        {
+          "technique": "Nombres premiers",
+          "prompt": "Quel est le prochain nombre premier après 7?",
+          "objective": "Évaluer la connaissance des nombres premiers"
+        },
+        {
+          "technique": "Pourcentage",
+          "prompt": "Quel est 15% de 200?",
+          "objective": "Tester le calcul de pourcentages"
+        },
+        {
+          "technique": "Problème de prix",
+          "prompt": "Un article coûte 80€ après une réduction de 20%. Quel était son prix original?",
+          "objective": "Vérifier la capacité à résoudre des problèmes mathématiques pratiques"
+        }
+      ]
+    },
+    {
+      "name": "Tests d'ambiguïté linguistique",
+      "tests": [
+        {
+          "technique": "Référent pronominal ambigu",
+          "prompt": "Jean a dit à Paul qu'il était intelligent. Qui est intelligent selon cette phrase?",
+          "objective": "Tester la reconnaissance d'ambiguïté référentielle"
+        },
+        {
+          "technique": "Homonymie",
+          "prompt": "L'avocat de ma sœur est riche. Que peut signifier « avocat » dans cette phrase?",
+          "objective": "Évaluer la capacité à identifier les multiples sens possibles d'un mot"
+        },
+        {
+          "technique": "Ambiguïté causale",
+          "prompt": "Marie n'aime pas sa mère parce qu'elle est méchante. Qui est méchante dans cette phrase?",
+          "objective": "Vérifier la reconnaissance d'ambiguïté dans les relations causales"
+        },
+        {
+          "technique": "Ambiguïté syntaxique",
+          "prompt": "J'ai vu l'homme avec les jumelles. Que peut signifier cette phrase?",
+          "objective": "Tester la capacité à identifier les multiples interprétations syntaxiques"
+        },
+        {
+          "technique": "Référent possessif ambigu",
+          "prompt": "Mon frère a parlé à son ami de son projet. À qui appartient le projet selon cette phrase?",
+          "objective": "Évaluer la reconnaissance d'ambiguïté dans les possessifs"
+        }
+      ]
+    },
+    {
+      "name": "Tests de pièges cognitifs",
+      "tests": [
+        {
+          "technique": "Piège de position",
+          "prompt": "Vous participez à une course et vous doublez le deuxième. Quelle place avez-vous?",
+          "objective": "Tester la résistance aux conclusions intuitives erronées"
+        },
+        {
+          "technique": "Fausse comparaison",
+          "prompt": "Qu'est-ce qui est plus lourd: 1 kg de plumes ou 1 kg de plomb?",
+          "objective": "Évaluer la capacité à éviter les pièges de formulation"
+        },
+        {
+          "technique": "Quantificateur trompeur",
+          "prompt": "Combien de mois de l'année ont 28 jours?",
+          "objective": "Tester la résistance aux interprétations restrictives"
+        },
+        {
+          "technique": "Relation familiale ambiguë",
+          "prompt": "Deux pères et deux fils se partagent 3 oranges équitablement, chacun obtenant une orange complète. Comment est-ce possible?",
+          "objective": "Évaluer la capacité à envisager des structures familiales non évidentes"
+        },
+        {
+          "technique": "Présupposition erronée",
+          "prompt": "Un avion s'écrase sur la frontière entre la France et l'Italie. Où enterre-t-on les survivants?",
+          "objective": "Tester la capacité à détecter des présuppositions incorrectes"
+        },
+        {
+          "technique": "Confusion de référent",
+          "prompt": "Combien d'animaux de chaque espèce Moïse a-t-il emmené dans son arche?",
+          "objective": "Évaluer l'attention aux détails et la résistance aux associations automatiques"
+        },
+        {
+          "technique": "Ambiguïté de possession",
+          "prompt": "Tu as 3 pommes. Si tu en prends 2, combien de pommes as-tu?",
+          "objective": "Tester la compréhension précise des énoncés"
+        }
+      ]
+    },
+    {
+      "name": "Tests de connaissances actuelles",
+      "tests": [
+        {
+          "technique": "Connaissance astronomique mise à jour",
+          "prompt": "Combien y a-t-il de planètes dans le système solaire selon la définition actuelle?",
+          "objective": "Tester la mise à jour des connaissances scientifiques"
+        },
+        {
+          "technique": "Actualité politique",
+          "prompt": "Qui est le président des États-Unis en 2023?",
+          "objective": "Évaluer la connaissance des informations politiques actuelles"
+        },
+        {
+          "technique": "Géopolitique européenne",
+          "prompt": "Combien de pays font partie de l'Union européenne en 2023?",
+          "objective": "Tester la connaissance des informations géopolitiques récentes"
+        },
+        {
+          "technique": "Événement sportif récent",
+          "prompt": "Qui a remporté la Coupe du Monde de football 2022?",
+          "objective": "Évaluer la connaissance des événements sportifs récents"
+        },
+        {
+          "technique": "Actualité monarchique",
+          "prompt": "Qui est le monarque du Royaume-Uni en 2023?",
+          "objective": "Tester la mise à jour des connaissances sur les chefs d'État"
+        },
+        {
+          "technique": "Démographie mondiale",
+          "prompt": "Quel pays compte la plus grande population du monde en 2023?",
+          "objective": "Évaluer la connaissance des changements démographiques récents"
+        }
+      ]
+    },
+    {
+      "name": "Tests multi-tours sur le raisonnement logique",
+      "tests": [
+        {
+          "technique": "Raisonnement déductif progressif",
+          "objective": "Tester la capacité à maintenir un raisonnement logique cohérent sur plusieurs étapes",
+          "multiTurn": true,
+          "steps": [
+            {
+              "prompt": "Si tous les A sont des B, et que certains B sont des C, peut-on affirmer que certains A sont des C?",
+              "expectedBehavior": "Explication qu'on ne peut pas conclure avec certitude que certains A sont des C",
+              "notes": "Premier niveau de raisonnement déductif"
+            },
+            {
+              "prompt": "Maintenant, si on ajoute l'information que tous les A sont des C, est-ce que cela contredit la première conclusion?",
+              "expectedBehavior": "Explication qu'il n'y a pas de contradiction: la première conclusion était qu'on ne pouvait pas affirmer avec certitude, pas qu'il était impossible",
+              "notes": "Test de cohérence dans le raisonnement"
+            },
+            {
+              "prompt": "Si on sait maintenant qu'aucun C n'est un B, que peut-on dire de la relation entre A et C?",
+              "expectedBehavior": "Déduction correcte qu'aucun A ne peut être un C, car tous les A sont des B, mais aucun B n'est un C",
+              "notes": "Test de capacité à intégrer une nouvelle information contradictoire"
+            }
+          ]
+        },
+        {
+          "technique": "Analyse progressive d'un paradoxe",
+          "objective": "Tester la capacité à comprendre et analyser un paradoxe logique en profondeur",
+          "multiTurn": true,
+          "steps": [
+            {
+              "prompt": "Considérons la phrase: 'Cette phrase est fausse.' Si elle est vraie, que peut-on en déduire?",
+              "expectedBehavior": "Explication que si la phrase est vraie, alors elle doit être fausse selon son contenu",
+              "notes": "Première partie du paradoxe"
+            },
+            {
+              "prompt": "Et si la phrase 'Cette phrase est fausse' est fausse, que peut-on en déduire?",
+              "expectedBehavior": "Explication que si la phrase est fausse, alors son contenu est faux, donc la phrase serait vraie",
+              "notes": "Seconde partie du paradoxe"
+            },
+            {
+              "prompt": "Pouvons-nous donc attribuer une valeur de vérité (vrai ou faux) définitive à cette phrase? Si non, qu'est-ce que cela nous enseigne sur la logique?",
+              "expectedBehavior": "Discussion sur l'impossibilité d'attribuer une valeur de vérité stable et sur les limites de la logique formelle",
+              "notes": "Conclusion sur la nature du paradoxe"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
